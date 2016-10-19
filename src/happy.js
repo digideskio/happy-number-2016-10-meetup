@@ -1,3 +1,3 @@
-export default function happy(number) {
+export default function happy (number) {
   return false
 }
