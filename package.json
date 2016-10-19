@@ -1,0 +1,40 @@
+{
+  "name": "happy-number-meetup",
+  "version": "0.0.1",
+  "description": "A happy number implementation for Meetup[",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ridermansb/happy-number-meetup.git"
+  },
+  "author": "ridermansb <ridermansb@gmail.com> (http://ridermansb.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ridermansb/happy-number-meetup/issues"
+  },
+  "homepage": "https://gitlab.com/ridermansb/happy-number-meetup#README",
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "jest-cli": "^16.0.1"
+  },
+  "jest": {
+    "rootDir": "src",
+    "testEnvironment": "node",
+    "testPathDirs": "test",
+    "testPathIgnorePatterns": [
+      "node_modules"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
+  },
+  "dependencies": {}
+}
