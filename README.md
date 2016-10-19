@@ -14,7 +14,7 @@ So **19** is a Happy Number
 \* *`ˆ` is square*
 
 ## TODO
- - [ ] Create a boilerplate with failing tests
+ - [x] Create a boilerplate with failing tests
  - [ ] Create slide with basic ES6
    * [spread-operator][1] `...`
    * Arrow functions
