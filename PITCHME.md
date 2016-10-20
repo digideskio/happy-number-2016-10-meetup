@@ -10,7 +10,7 @@ Both let and const create variables that are block-scoped
 
 ```
 function order(x, y) {
-    if (x > y) { // (A)
+    if (x > y) {
         let tmp = x;
         x = y;
         y = tmp;
@@ -19,6 +19,8 @@ function order(x, y) {
     return [x, y];
 }
 ```
+
+#VSLIDE 
 
 Const makes the contract that no rebinding will happen.
 
@@ -30,7 +32,6 @@ const bar = 123;
 bar = 456;
     // TypeError: `bar` is read-only
 ```
-
 
 #VSLIDE 
 # Arrow functions
@@ -65,6 +66,8 @@ var multiply = (x, y) => x * y
 ```
 `string text ${expression} string text`
 ```
+
+#VSLIDE
 
 Tagged template literals
 
@@ -119,23 +122,52 @@ arr1.push(...arr2)
 ```
 
 #VSLIDE 
-Shorthand properties
+# Shorthand properties
+```
+// Shorthand property names (ES6)
+var a = "foo", b = 42, c = {};
+var o = { a, b, c };
+```
 
 #VSLIDE 
-Destructuring Assignment `var [first,,,,fifth] = [1,3,2,6,5]`
+# Destructuring Assignment 
+
+```
+({a, b} = {a:1, b:2})
+console.log(a) // 1
+console.log(b) // 2
+```
 
 #VSLIDE 
-es6 Modules
+
+```
+[a, b, ...rest] = [1, 2, 3, 4, 5]
+console.log(a) // 1
+console.log(b) // 2
+console.log(rest) // [3, 4, 5]
+```
 
 #VSLIDE 
-Generators
+# Generators
+
+```
+function *foo() {
+    yield 1
+    yield 2
+    yield 3
+}
+var it = foo();
+```
 
 #VSLIDE 
-Maps, WeekMaps `new Map()`
 
-
-
-
+```
+var message = it.next();
+console.log( message ); // { value:1, done:false }
+console.log( it.next() ); // { value:2, done:false }
+console.log( it.next() ); // { value:3, done:false }
+console.log( it.next() ); // { value:undefined, done:true }
+```
 
 #HSLIDE
 
