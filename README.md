@@ -1,3 +1,5 @@
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/ridermansb/happy-number-meetup/master?grs=gitlab&t=black)
+
 > This is a implementation of [Happy Number][11] for an [Meetup][10]
 
 Is a happy number if starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number either equals 1. If ends with 1, is a Happy Number
@@ -15,16 +17,16 @@ So **19** is a Happy Number
 
 ## TODO
  - [x] Create a boilerplate with failing tests
- - [ ] Create slide with basic ES6
-   * [spread-operator][1] `...`
+ - [x] Create slide with basic ES6
    * Arrow functions
-   * [String templates][2] `tag'testing ${a}, as fn'`
    * let, const
+   * [Array.from][5] and others [prototype functions][8] `.entries()`, `.keys()`, `.values()`, `for (const [index, element] of ['a', 'b'].entries())`, `.find`, `forEach(), filter(), every() and some()`
+   * [String templates][2] `tag'testing ${a}, as fn'`
    * Default values
+   * [spread-operator][1] `...`
    * Shorthand properties
    * [Destructuring Assignment][3] `var [first,,,,fifth] = [1,3,2,6,5]`
    * [es6 Modules][4]
-   * [Array.from][5] and others [prototype functions][8] `.entries()`, `.keys()`, `.values()`, `for (const [index, element] of ['a', 'b'].entries())`, `.find`, `forEach(), filter(), every() and some()`
    * [Generators][6]
    * [Maps, WeekMaps][7] `new Map()`
  
