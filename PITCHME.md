@@ -173,10 +173,22 @@ console.log( it.next() ); // { value:undefined, done:true }
 
 ## Happy Number
 
-How to find?
+A happy number is a number defined by the following process that result in `1`
 
-#HSLIDE
+#VSLIDE
 
-Any positive integer, replace the number by the **sum of the squares of its digits**, and repeat the process **until the number** either **equals 1. If ends with 1**, is a **Happy Number**
+ - Starting with any positive integer
+ - Replace the number by the sum of the squares of its digits
+ - Repeat the process until the number either equals 1 
 
-#HSLIDE
+#VSLIDE
+
+
+E.g: **19** is a Happy Number!
+
+    1ˆ2 + 9ˆ2 = 82
+    8ˆ2 + 2ˆ2 = 68
+    6ˆ2 + 8ˆ2 = 100
+    1ˆ2 + 0ˆ2 + 02 = 1
+    
+\* *`ˆ` is square*
