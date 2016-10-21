@@ -1,8 +1,6 @@
 #HSLIDE?image=pitchme/assets/es6-background.png
 
 #VSLIDE
-
-## Thanks
 <!-- .slide: data-background-transition="none" -->
 ![Ci7T](http://www.ciandt.com/ciandt-e/images/logo.png)
 
