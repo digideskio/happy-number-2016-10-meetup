@@ -4,7 +4,7 @@
   "description": "A happy number implementation for Meetup[",
   "main": "index.js",
   "scripts": {
-    "test": "jest --debug"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,9 @@
   "jest": {
     "testEnvironment": "node",
     "testRegex": ".+-test\\.js$",
-    "testPathDirs": [ "src/" ],
+    "testPathDirs": [
+      "src/"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 50,
