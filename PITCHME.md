@@ -2,11 +2,11 @@
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-![Ci7T](http://www.ciandt.com/ciandt-e/images/logo.png)
+<div style="text-align:center"><img src ="http://www.ciandt.com/ciandt-e/images/logo.png" /></div>
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-![GitSkills](http://i.imgur.com/tmplMiO.png)
+<div style="text-align:center"><img src ="http://i.imgur.com/tmplMiO.png" /></div>
 
 #HSLIDE
 # ES6 Basics
