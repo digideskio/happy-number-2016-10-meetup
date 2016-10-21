@@ -2,12 +2,12 @@
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-<div style="text-align:center"><img style="border: 0" width="70%" src="http://www.ciandt.com/ciandt-e/images/logo.png" /></div>
+<div style="text-align:center"><img style="border: 0; box-shadow: none;" width="70%" src="http://www.ciandt.com/ciandt-e/images/logo.png" /></div>
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
 <div style="text-align:center; text-align: center; font-size: 30px; color: #00B5AD">
-    <img style="border: none" width="70%" src="http://i.imgur.com/tmplMiO.png" />
+    <img style="border: 0; box-shadow: none;" width="70%" src="http://i.imgur.com/tmplMiO.png" />
     <span style="color: #00B5AD">facebook.com/gitskills</span>
     | 
     <span style="color: #00B5AD">@gitskills</span>
