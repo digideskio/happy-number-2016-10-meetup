@@ -1,7 +1,5 @@
 #HSLIDE?image=pitchme/assets/es6-background.png
 
-#VSLIDE
-
 #VSLIDE?image=http://www.ciandt.com/ciandt-e/images/logo.png
 
 #VSLIDE?image=http://i.imgur.com/tmplMiO.png
