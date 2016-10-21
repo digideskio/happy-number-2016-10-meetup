@@ -2,11 +2,11 @@
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-<div style="text-align:center"><img src ="http://www.ciandt.com/ciandt-e/images/logo.png" /></div>
+<div style="text-align:center"><img style="border: 0" width="70%" src="http://www.ciandt.com/ciandt-e/images/logo.png" /></div>
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-<div style="text-align:center"><img src ="http://i.imgur.com/tmplMiO.png" /></div>
+<div style="text-align:center"><img style="border: 0" width="70%" src="http://i.imgur.com/tmplMiO.png" /></div>
 
 #HSLIDE
 # ES6 Basics
