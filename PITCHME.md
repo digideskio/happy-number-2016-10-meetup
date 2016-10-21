@@ -6,7 +6,15 @@
 
 #VSLIDE
 <!-- .slide: data-background-transition="none" -->
-<div style="text-align:center"><img style="border: 0" width="70%" src="http://i.imgur.com/tmplMiO.png" /></div>
+<div style="text-align:center">
+    <img style="border: 0" width="70%" src="http://i.imgur.com/tmplMiO.png" />
+</div>
+
+<p style="text-align: center; font-size: 30px; color: #00B5AD">
+    <a style="color: #00B5AD" href="https://www.facebook.com/gitskills" target="blank">facebook.com/gitskills</a>
+    | 
+    <a style="color: #00B5AD" href="https://twitter.com/gitskills" target="blank">@gitskills</a>
+</p>
 
 #HSLIDE
 # ES6 Basics
