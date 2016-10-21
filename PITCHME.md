@@ -1,8 +1,14 @@
 #HSLIDE?image=pitchme/assets/es6-background.png
 
-#VSLIDE?image=http://www.ciandt.com/ciandt-e/images/logo.png
+#VSLIDE
 
-#VSLIDE?image=http://i.imgur.com/tmplMiO.png
+## Thanks
+<!-- .slide: data-background-transition="none" -->
+![Ci7T](http://www.ciandt.com/ciandt-e/images/logo.png)
+
+#VSLIDE
+<!-- .slide: data-background-transition="none" -->
+![GitSkills](http://i.imgur.com/tmplMiO.png)
 
 #HSLIDE
 # ES6 Basics
