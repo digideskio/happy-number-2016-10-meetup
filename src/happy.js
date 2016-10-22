@@ -1,15 +1,10 @@
 export default function happy (number) {
 
   let numbers = Array.from(number.toString())
-  let sum = 0
 
-  for (let n in numbers) {
-    sum += numbers[n] * numbers[n]
-  }
+  let sum = numbers.map(n => n*n).reduce((r, n) => r + n)
 
-  if (numbers.length !== 1) {
-    return happy(sum)
-  }
-  return number===1
+  if (sum.toString().length===1) return sum===1
 
+  return happy(sum)
 }

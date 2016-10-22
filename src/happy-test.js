@@ -15,3 +15,11 @@ test('4 should be unhappy', () => expect(happy(4)).toBeFalsy())
 test('490 should be happy', () => expect(happy(490)).toBeTruthy())
 
 test('492 should be unhappy', () => expect(happy(492)).toBeFalsy())
+
+test('7 should be happy', () => expect(happy(7)).toBeTruthy())
+
+test('13 should be happy', () => expect(happy(13)).toBeTruthy())
+
+test('23 should be happy', () => expect(happy(23)).toBeTruthy())
+
+test('1 should be happy', () => expect(happy(1)).toBeTruthy())
